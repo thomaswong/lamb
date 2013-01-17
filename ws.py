@@ -1,4 +1,5 @@
 import soaplib
+from sqlalchemy import *
 from soaplib.core.service import rpc, DefinitionBase, soap
 from soaplib.core.model.primitive import String, Integer
 from soaplib.core.server import wsgi
@@ -7,14 +8,18 @@ from soaplib.core.model.binary import Attachment
 import tornado.web
 import tornado.wsgi
 import tornado.httpserver
-from sqlalchemy import create_engine
-from sqlalchemy.schema import MetaData, Table
 import os
 from tempfile import mkstemp, gettempdir
 import shutil
 
 
-
+class Article(ClassModel):
+    """docstring for Article"""
+    __namespace__ = "Article"
+    item_no = String
+    purchase_g = String
+    price = String
+        
         
 
 class HelloWorldService(DefinitionBase):
@@ -61,8 +66,22 @@ class BackInBlack(DefinitionBase):
         # alternatively, The data could be manually loaded into memory
         # and loaded into the Attachment like:
         #   document = Attachment(data=data_from_file)
-        return document            
-        
+        return document 
+
+    @soap(String, _returns=Array(Article))
+    def list_article(self, item_no):
+        engine = create_engine('sqlite:///test.sqlite')
+        meta = MetaData()
+        meta.bind = engine
+        table = Table("CT_MATERIAL", meta, autoload=True)
+        s = select([table.c.Material, table.c.PurchaseGroup, func.sum(table.c.UnitPrice).label("unitprice")], \
+            and_(table.c.Material == item_no, ))\
+                .group_by(table.c.Material, table.c.PurchaseGroup)
+        conn = engine.connect()
+        z = conn.execute(s)
+        return [ (row['Material'], row['PurchaseGroup'], str(row['unitprice'])) for row in z ]
+
+
 
 if __name__=='__main__':
     try:
