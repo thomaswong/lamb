@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+{% autoescape None %}
+
+{% block body %}
+	
+	<div id="hello">
+		<h1 id="login_logo"><a href="/"></a></h1>
+
+		<img class="login_bar" src="{{ static_url("img/login_bar.png") }}" alt="Horizontal Rule" />
+
+		<form id = "login_form" action="/app" method="POST">
+			<input type = "text" name = "loginid" placeholder="Login ID">
+			<input type="password" name="password" placeholder="Password">
+			<button type="submit" class="btn">Login</button>
+		</form>
+	</div>
+{% end %}
+
+
