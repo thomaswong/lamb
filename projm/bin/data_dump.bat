@@ -1,0 +1,1 @@
+d:\Dev\mongodb\bin\mongodump --dbpath ..\data --out ..\export

@@ -1,0 +1,30 @@
+Fri Jul 12 06:19:39.707 [DataFileSync] flushing diag log
+Fri Jul 12 06:19:39.717 [initandlisten] MongoDB starting : pid=7892 port=27017 dbpath=../data 64-bit host=AAECNBJ000245W
+Fri Jul 12 06:19:39.717 [initandlisten] db version v2.4.5
+Fri Jul 12 06:19:39.717 [initandlisten] git version: a2ddc68ba7c9cee17bfe69ed840383ec3506602b
+Fri Jul 12 06:19:39.717 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Fri Jul 12 06:19:39.717 [initandlisten] allocator: system
+Fri Jul 12 06:19:39.717 [initandlisten] options: { config: "../conf/mongo.conf", dbpath: "../data", diaglog: 3, logpath: "../logs/mongo.log" }
+Fri Jul 12 06:19:39.717 [initandlisten] journal dir=../data\journal
+Fri Jul 12 06:19:39.717 [initandlisten] recover : no journal files present, no recovery needed
+Fri Jul 12 06:19:40.017 [initandlisten] waiting for connections on port 27017
+Fri Jul 12 06:19:40.107 [websvr] admin web console waiting for connections on port 28017
+Fri Jul 12 06:19:42.927 Ctrl-C signal
+Fri Jul 12 06:19:42.927 [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+Fri Jul 12 06:19:42.927 [consoleTerminate] now exiting
+Fri Jul 12 06:19:42.927 dbexit: 
+Fri Jul 12 06:19:42.927 [consoleTerminate] shutdown: going to close listening sockets...
+Fri Jul 12 06:19:42.927 [consoleTerminate] closing listening socket: 580
+Fri Jul 12 06:19:42.927 [consoleTerminate] closing listening socket: 588
+Fri Jul 12 06:19:42.927 [consoleTerminate] shutdown: going to flush diaglog...
+Fri Jul 12 06:19:42.927 [consoleTerminate] flushing diag log
+Fri Jul 12 06:19:42.927 [consoleTerminate] shutdown: going to close sockets...
+Fri Jul 12 06:19:42.927 [consoleTerminate] shutdown: waiting for fs preallocator...
+Fri Jul 12 06:19:42.927 [consoleTerminate] shutdown: lock for final commit...
+Fri Jul 12 06:19:42.927 [consoleTerminate] shutdown: final commit...
+Fri Jul 12 06:19:42.937 [consoleTerminate] shutdown: closing all files...
+Fri Jul 12 06:19:42.937 [consoleTerminate] closeAllFiles() finished
+Fri Jul 12 06:19:42.937 [consoleTerminate] journalCleanup...
+Fri Jul 12 06:19:42.937 [consoleTerminate] removeJournalFiles
+Fri Jul 12 06:19:42.937 [consoleTerminate] shutdown: removing fs lock...
+Fri Jul 12 06:19:42.937 dbexit: really exiting now

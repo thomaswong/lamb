@@ -1,0 +1,30 @@
+2013-07-11 23:10:22,119 - __main__ - INFO - Hello baby
+2013-07-11 23:10:22,120 - __main__ - INFO - Start connect to Mongodb
+2013-07-11 23:10:22,122 - __main__ - INFO - Connected to collection proj_m
+2013-07-11 23:11:40,728 - __main__ - INFO - Try to insert data to info
+2013-07-11 23:11:40,730 - __main__ - INFO - insert data successful!
+2013-07-11 23:13:38,269 - __main__ - INFO - Try to insert data to info
+2013-07-11 23:13:38,272 - __main__ - INFO - insert data successful!
+2013-07-11 23:15:29,597 - __main__ - INFO - Hello baby
+2013-07-11 23:15:29,598 - __main__ - INFO - Start connect to Mongodb
+2013-07-11 23:15:29,599 - __main__ - ERROR - Cannot get database connection
+Traceback (most recent call last):
+  File "projm.py", line 101, in __init__
+    conn = pymongo.Connection("localhost", 27017)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pymongo-2.5.2-py2.7-macosx-10.8-intel.egg/pymongo/connection.py", line 220, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pymongo-2.5.2-py2.7-macosx-10.8-intel.egg/pymongo/mongo_client.py", line 337, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-07-11 23:15:48,173 - __main__ - INFO - Hello baby
+2013-07-11 23:15:48,174 - __main__ - INFO - Start connect to Mongodb
+2013-07-11 23:15:48,176 - __main__ - INFO - Connected to collection proj_m
+2013-07-11 23:16:02,187 - __main__ - INFO - Try to insert data to info
+2013-07-11 23:16:02,198 - __main__ - INFO - insert data successful!
+2013-07-11 23:20:15,507 - __main__ - INFO - Hello baby
+2013-07-11 23:20:15,507 - __main__ - INFO - Start connect to Mongodb
+2013-07-11 23:20:15,510 - __main__ - INFO - Connected to collection proj_m
+2013-07-11 23:20:33,859 - __main__ - INFO - Try to insert data to info
+2013-07-11 23:20:33,860 - __main__ - DEBUG - The data user want to insert: {'jul_plan': '', 'second_half_year_act': '', 'apr_prec': '', 'fisrt_half_year_prec': '', 'fisrt_half_year_act': '', 'jun_plan': '', 'jan_plan': '', 'jan_act': '', 'q4_prec': '', 'group': u'\u82f9\u679c', 'may_act': '', 'feb_prec': '', 'oct_plan': '', 'q1_act': '', 'q4_act': '', 'feb_act': '', 'company': u'\u624b\u673a', 'nov_plan': '', 'oct_prec': '', 'nov_prec': '', 'jan_prec': '', 'apr_act': '', 'fisrt_half_year_plan': '', 'q1_plan': '', 'project': u'iphone250', 'sep_act': '', 'mar_act': '', 'q3_plan': '', 'q2_prec': '', 'dec_act': '', 'feb_plan': '', 'may_plan': '', 'jun_prec': '', 'mar_prec': '', 'q3_act': '', 'year': u'45000', 'q4_plan': '', 'mar_plan': '', 'q2_act': '', 'sep_plan': '', 'dec_plan': '', 'sep_prec': '', 'q1_prec': '', 'apr_plan': '', 'yearlyamount': u'15000', 'may_prec': '', 'jul_prec': '', 'second_half_year_prec': '', 'aug_prec': '', 'second_half_year_plan': '', 'jul_act': '', 'jun_act': '', 'aug_act': '', 'oct_act': '', 'aug_plan': '', 'q2_plan': '', 'dec_prec': '', 'nov_act': '', 'amount': u'2013', 'q3_prec': ''}
+2013-07-11 23:20:33,871 - __main__ - DEBUG - bad luck we need to insert data
+2013-07-11 23:20:33,872 - __main__ - INFO - insert data successful!

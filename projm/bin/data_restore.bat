@@ -1,0 +1,1 @@
+d:\Dev\mongodb\bin\mongorestore --dbpath ..\data ..\export\proj_m_d

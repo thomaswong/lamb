@@ -1,0 +1,142 @@
+Thu Jul 11 21:54:56.503 [DataFileSync] flushing diag log
+Thu Jul 11 21:54:56.522 [initandlisten] MongoDB starting : pid=427 port=27017 dbpath=/Users/thom/Documents/workspace/projm/data 64-bit host=thom.local
+Thu Jul 11 21:54:56.522 [initandlisten] 
+Thu Jul 11 21:54:56.522 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Thu Jul 11 21:54:56.522 [initandlisten] db version v2.4.5
+Thu Jul 11 21:54:56.522 [initandlisten] git version: a2ddc68ba7c9cee17bfe69ed840383ec3506602b
+Thu Jul 11 21:54:56.522 [initandlisten] build info: Darwin bs-osx-106-x86-64-2.10gen.cc 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:32:41 PDT 2011; root:xnu-1504.15.3~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Thu Jul 11 21:54:56.522 [initandlisten] allocator: system
+Thu Jul 11 21:54:56.522 [initandlisten] options: { config: "/Users/thom/Documents/workspace/projm/conf/mongo.conf", dbpath: "/Users/thom/Documents/workspace/projm/data", diaglog: 3, logpath: "/Users/thom/Documents/workspace/projm/logs/mongo.log" }
+Thu Jul 11 21:54:56.523 [initandlisten] journal dir=/Users/thom/Documents/workspace/projm/data/journal
+Thu Jul 11 21:54:56.523 [initandlisten] recover : no journal files present, no recovery needed
+Thu Jul 11 21:54:56.549 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/local.ns, filling with zeroes...
+Thu Jul 11 21:54:56.549 [FileAllocator] creating directory /Users/thom/Documents/workspace/projm/data/_tmp
+Thu Jul 11 21:54:56.628 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/local.ns, size: 16MB,  took 0.078 secs
+Thu Jul 11 21:54:56.824 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/local.0, filling with zeroes...
+Thu Jul 11 21:54:57.799 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/local.0, size: 64MB,  took 0.975 secs
+Thu Jul 11 21:54:58.076 [initandlisten] command local.$cmd command: { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0  reslen:37 1527ms
+Thu Jul 11 21:54:58.077 [websvr] admin web console waiting for connections on port 28017
+Thu Jul 11 21:54:58.077 [initandlisten] waiting for connections on port 27017
+Thu Jul 11 21:55:04.026 [initandlisten] connection accepted from 127.0.0.1:49266 #1 (1 connection now open)
+Thu Jul 11 21:55:56.509 [DataFileSync] flushing diag log
+Thu Jul 11 21:56:56.504 [DataFileSync] flushing diag log
+Thu Jul 11 21:57:56.502 [DataFileSync] flushing diag log
+Thu Jul 11 21:58:56.501 [DataFileSync] flushing diag log
+Thu Jul 11 21:59:56.498 [DataFileSync] flushing diag log
+Thu Jul 11 22:00:56.495 [DataFileSync] flushing diag log
+Thu Jul 11 22:01:56.494 [DataFileSync] flushing diag log
+Thu Jul 11 22:02:56.490 [DataFileSync] flushing diag log
+Thu Jul 11 22:03:03.935 [initandlisten] connection accepted from 127.0.0.1:49298 #2 (2 connections now open)
+Thu Jul 11 22:03:56.490 [DataFileSync] flushing diag log
+Thu Jul 11 22:04:52.825 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/test.ns, filling with zeroes...
+Thu Jul 11 22:04:52.857 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/test.ns, size: 16MB,  took 0.031 secs
+Thu Jul 11 22:04:53.172 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/test.0, filling with zeroes...
+Thu Jul 11 22:04:54.161 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/test.0, size: 64MB,  took 0.988 secs
+Thu Jul 11 22:04:54.424 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/test.1, filling with zeroes...
+Thu Jul 11 22:04:54.427 [conn2] build index test.infos { _id: 1 }
+Thu Jul 11 22:04:54.479 [conn2] build index done.  scanned 0 total records. 0.051 secs
+Thu Jul 11 22:04:54.479 [conn2] insert test.infos ninserted:1 keyUpdates:0 locks(micros) w:1654873 1654ms
+Thu Jul 11 22:04:56.867 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/test.1, size: 128MB,  took 2.441 secs
+Thu Jul 11 22:04:57.210 [DataFileSync] flushing diag log
+Thu Jul 11 22:05:56.487 [DataFileSync] flushing diag log
+Thu Jul 11 22:06:56.487 [DataFileSync] flushing diag log
+Thu Jul 11 22:07:56.484 [DataFileSync] flushing diag log
+Thu Jul 11 22:08:56.483 [DataFileSync] flushing diag log
+Thu Jul 11 22:09:56.480 [DataFileSync] flushing diag log
+Thu Jul 11 22:10:56.477 [DataFileSync] flushing diag log
+Thu Jul 11 22:11:56.472 [DataFileSync] flushing diag log
+Thu Jul 11 22:12:56.472 [DataFileSync] flushing diag log
+Thu Jul 11 22:13:56.470 [DataFileSync] flushing diag log
+Thu Jul 11 22:14:56.467 [DataFileSync] flushing diag log
+Thu Jul 11 22:15:56.464 [DataFileSync] flushing diag log
+Thu Jul 11 22:16:56.462 [DataFileSync] flushing diag log
+Thu Jul 11 22:17:56.462 [DataFileSync] flushing diag log
+Thu Jul 11 22:18:56.459 [DataFileSync] flushing diag log
+Thu Jul 11 22:19:56.458 [DataFileSync] flushing diag log
+Thu Jul 11 22:20:56.456 [DataFileSync] flushing diag log
+Thu Jul 11 22:21:56.454 [DataFileSync] flushing diag log
+Thu Jul 11 22:22:56.451 [DataFileSync] flushing diag log
+Thu Jul 11 22:23:56.450 [DataFileSync] flushing diag log
+Thu Jul 11 22:24:56.450 [DataFileSync] flushing diag log
+Thu Jul 11 22:25:56.447 [DataFileSync] flushing diag log
+Thu Jul 11 22:26:56.446 [DataFileSync] flushing diag log
+Thu Jul 11 22:27:56.443 [DataFileSync] flushing diag log
+Thu Jul 11 22:28:56.441 [DataFileSync] flushing diag log
+Thu Jul 11 22:29:56.440 [DataFileSync] flushing diag log
+Thu Jul 11 22:30:56.437 [DataFileSync] flushing diag log
+Thu Jul 11 22:31:56.435 [DataFileSync] flushing diag log
+Thu Jul 11 22:32:56.432 [DataFileSync] flushing diag log
+Thu Jul 11 22:33:56.432 [DataFileSync] flushing diag log
+Thu Jul 11 22:34:56.427 [DataFileSync] flushing diag log
+Thu Jul 11 22:35:56.423 [DataFileSync] flushing diag log
+Thu Jul 11 22:36:56.422 [DataFileSync] flushing diag log
+Thu Jul 11 22:37:56.420 [DataFileSync] flushing diag log
+Thu Jul 11 22:38:56.416 [DataFileSync] flushing diag log
+Thu Jul 11 22:39:56.414 [DataFileSync] flushing diag log
+Thu Jul 11 22:40:56.412 [DataFileSync] flushing diag log
+Thu Jul 11 22:41:56.410 [DataFileSync] flushing diag log
+Thu Jul 11 22:42:56.407 [DataFileSync] flushing diag log
+Thu Jul 11 22:43:56.404 [DataFileSync] flushing diag log
+Thu Jul 11 22:44:56.399 [DataFileSync] flushing diag log
+Thu Jul 11 22:45:56.399 [DataFileSync] flushing diag log
+Thu Jul 11 22:46:56.397 [DataFileSync] flushing diag log
+Thu Jul 11 22:47:56.395 [DataFileSync] flushing diag log
+Thu Jul 11 22:48:56.392 [DataFileSync] flushing diag log
+Thu Jul 11 22:49:56.389 [DataFileSync] flushing diag log
+Thu Jul 11 22:50:56.385 [DataFileSync] flushing diag log
+Thu Jul 11 22:51:56.383 [DataFileSync] flushing diag log
+Thu Jul 11 22:52:56.381 [DataFileSync] flushing diag log
+Thu Jul 11 22:53:56.378 [DataFileSync] flushing diag log
+Thu Jul 11 22:54:56.377 [DataFileSync] flushing diag log
+Thu Jul 11 22:55:56.375 [DataFileSync] flushing diag log
+Thu Jul 11 22:56:56.376 [DataFileSync] flushing diag log
+Thu Jul 11 22:57:56.371 [DataFileSync] flushing diag log
+Thu Jul 11 22:58:56.369 [DataFileSync] flushing diag log
+Thu Jul 11 22:59:56.365 [DataFileSync] flushing diag log
+Thu Jul 11 23:00:56.363 [DataFileSync] flushing diag log
+Thu Jul 11 23:01:56.360 [DataFileSync] flushing diag log
+Thu Jul 11 23:02:56.360 [DataFileSync] flushing diag log
+Thu Jul 11 23:03:56.357 [DataFileSync] flushing diag log
+Thu Jul 11 23:04:56.357 [DataFileSync] flushing diag log
+Thu Jul 11 23:05:56.353 [DataFileSync] flushing diag log
+Thu Jul 11 23:06:56.350 [DataFileSync] flushing diag log
+Thu Jul 11 23:07:56.349 [DataFileSync] flushing diag log
+Thu Jul 11 23:08:56.347 [DataFileSync] flushing diag log
+Thu Jul 11 23:09:56.346 [DataFileSync] flushing diag log
+Thu Jul 11 23:10:22.122 [initandlisten] connection accepted from 127.0.0.1:49713 #3 (3 connections now open)
+Thu Jul 11 23:10:56.341 [DataFileSync] flushing diag log
+Thu Jul 11 23:11:40.730 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/proj_m_d.ns, filling with zeroes...
+Thu Jul 11 23:11:40.952 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/proj_m_d.ns, size: 16MB,  took 0.222 secs
+Thu Jul 11 23:11:41.089 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/proj_m_d.0, filling with zeroes...
+Thu Jul 11 23:11:41.893 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/proj_m_d.0, size: 64MB,  took 0.804 secs
+Thu Jul 11 23:11:42.169 [FileAllocator] allocating new datafile /Users/thom/Documents/workspace/projm/data/proj_m_d.1, filling with zeroes...
+Thu Jul 11 23:11:42.171 [conn3] build index proj_m_d.infos { _id: 1 }
+Thu Jul 11 23:11:42.173 [conn3] build index done.  scanned 0 total records. 0.001 secs
+Thu Jul 11 23:11:42.173 [conn3] insert proj_m_d.infos ninserted:1 keyUpdates:0 locks(micros) w:1443408 1443ms
+Thu Jul 11 23:11:44.907 [FileAllocator] done allocating datafile /Users/thom/Documents/workspace/projm/data/proj_m_d.1, size: 128MB,  took 2.737 secs
+Thu Jul 11 23:11:56.348 [DataFileSync] flushing diag log
+Thu Jul 11 23:12:56.341 [DataFileSync] flushing diag log
+Thu Jul 11 23:13:56.340 [DataFileSync] flushing diag log
+Thu Jul 11 23:14:08.544 [conn1] end connection 127.0.0.1:49266 (2 connections now open)
+Thu Jul 11 23:14:17.608 [signalProcessingThread] got signal 2 (Interrupt: 2), will terminate after current cmd ends
+Thu Jul 11 23:14:17.608 [signalProcessingThread] now exiting
+Thu Jul 11 23:14:17.608 dbexit: 
+Thu Jul 11 23:14:17.608 [signalProcessingThread] shutdown: going to close listening sockets...
+Thu Jul 11 23:14:17.608 [signalProcessingThread] closing listening socket: 10
+Thu Jul 11 23:14:17.608 [signalProcessingThread] closing listening socket: 11
+Thu Jul 11 23:14:17.608 [signalProcessingThread] closing listening socket: 12
+Thu Jul 11 23:14:17.608 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+Thu Jul 11 23:14:17.609 [signalProcessingThread] shutdown: going to flush diaglog...
+Thu Jul 11 23:14:17.609 [signalProcessingThread] flushing diag log
+Thu Jul 11 23:14:17.609 [signalProcessingThread] shutdown: going to close sockets...
+Thu Jul 11 23:14:17.609 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Thu Jul 11 23:14:17.609 [signalProcessingThread] shutdown: lock for final commit...
+Thu Jul 11 23:14:17.609 [signalProcessingThread] shutdown: final commit...
+Thu Jul 11 23:14:17.609 [conn2] end connection 127.0.0.1:49298 (1 connection now open)
+Thu Jul 11 23:14:17.610 [conn3] end connection 127.0.0.1:49713 (1 connection now open)
+Thu Jul 11 23:14:17.623 [signalProcessingThread] shutdown: closing all files...
+Thu Jul 11 23:14:17.624 [signalProcessingThread] closeAllFiles() finished
+Thu Jul 11 23:14:17.624 [signalProcessingThread] journalCleanup...
+Thu Jul 11 23:14:17.624 [signalProcessingThread] removeJournalFiles
+Thu Jul 11 23:14:17.624 [signalProcessingThread] shutdown: removing fs lock...
+Thu Jul 11 23:14:17.624 dbexit: really exiting now

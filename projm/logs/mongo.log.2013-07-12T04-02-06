@@ -1,0 +1,40 @@
+Thu Jul 11 23:27:35.144 [DataFileSync] flushing diag log
+Thu Jul 11 23:27:35.149 [initandlisten] MongoDB starting : pid=542 port=27017 dbpath=/Users/thom/Documents/workspace/projm/data 64-bit host=thom.local
+Thu Jul 11 23:27:35.149 [initandlisten] 
+Thu Jul 11 23:27:35.149 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Thu Jul 11 23:27:35.149 [initandlisten] db version v2.4.5
+Thu Jul 11 23:27:35.149 [initandlisten] git version: a2ddc68ba7c9cee17bfe69ed840383ec3506602b
+Thu Jul 11 23:27:35.149 [initandlisten] build info: Darwin bs-osx-106-x86-64-2.10gen.cc 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:32:41 PDT 2011; root:xnu-1504.15.3~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Thu Jul 11 23:27:35.149 [initandlisten] allocator: system
+Thu Jul 11 23:27:35.149 [initandlisten] options: { config: "/Users/thom/Documents/workspace/projm/conf/mongo.conf", dbpath: "/Users/thom/Documents/workspace/projm/data", diaglog: 3, logpath: "/Users/thom/Documents/workspace/projm/logs/mongo.log" }
+Thu Jul 11 23:27:35.150 [initandlisten] journal dir=/Users/thom/Documents/workspace/projm/data/journal
+Thu Jul 11 23:27:35.150 [initandlisten] recover : no journal files present, no recovery needed
+Thu Jul 11 23:27:35.215 [websvr] admin web console waiting for connections on port 28017
+Thu Jul 11 23:27:35.215 [initandlisten] waiting for connections on port 27017
+Thu Jul 11 23:28:21.916 [initandlisten] connection accepted from 127.0.0.1:49857 #1 (1 connection now open)
+Thu Jul 11 23:28:21.932 [conn1] end connection 127.0.0.1:49857 (0 connections now open)
+Thu Jul 11 23:28:35.154 [DataFileSync] flushing diag log
+Thu Jul 11 23:28:47.554 [initandlisten] connection accepted from 127.0.0.1:49858 #2 (1 connection now open)
+Thu Jul 11 23:28:47.560 [conn2] end connection 127.0.0.1:49858 (0 connections now open)
+Thu Jul 11 23:29:35.155 [DataFileSync] flushing diag log
+Thu Jul 11 23:30:35.148 [DataFileSync] flushing diag log
+Thu Jul 11 23:30:53.253 [signalProcessingThread] got signal 1 (Hangup: 1), will terminate after current cmd ends
+Thu Jul 11 23:30:53.253 [signalProcessingThread] now exiting
+Thu Jul 11 23:30:53.253 dbexit: 
+Thu Jul 11 23:30:53.253 [signalProcessingThread] shutdown: going to close listening sockets...
+Thu Jul 11 23:30:53.253 [signalProcessingThread] closing listening socket: 10
+Thu Jul 11 23:30:53.254 [signalProcessingThread] closing listening socket: 11
+Thu Jul 11 23:30:53.254 [signalProcessingThread] closing listening socket: 12
+Thu Jul 11 23:30:53.254 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+Thu Jul 11 23:30:53.254 [signalProcessingThread] shutdown: going to flush diaglog...
+Thu Jul 11 23:30:53.254 [signalProcessingThread] flushing diag log
+Thu Jul 11 23:30:53.254 [signalProcessingThread] shutdown: going to close sockets...
+Thu Jul 11 23:30:53.255 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Thu Jul 11 23:30:53.255 [signalProcessingThread] shutdown: lock for final commit...
+Thu Jul 11 23:30:53.255 [signalProcessingThread] shutdown: final commit...
+Thu Jul 11 23:30:53.271 [signalProcessingThread] shutdown: closing all files...
+Thu Jul 11 23:30:53.271 [signalProcessingThread] closeAllFiles() finished
+Thu Jul 11 23:30:53.271 [signalProcessingThread] journalCleanup...
+Thu Jul 11 23:30:53.271 [signalProcessingThread] removeJournalFiles
+Thu Jul 11 23:30:53.271 [signalProcessingThread] shutdown: removing fs lock...
+Thu Jul 11 23:30:53.271 dbexit: really exiting now
