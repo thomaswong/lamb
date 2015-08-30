@@ -1,1 +1,0 @@
-d:\Dev\mongodb\bin\mongoimport.exe --db proj_m_d --collection infos < "../export/all.json"
